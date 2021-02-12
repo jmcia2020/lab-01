@@ -1,39 +1,76 @@
-header {
-    height: 125px;
-    line-height: 125px;
-   }
-   
-   h1{
-     margin: 0;
-   }
-   
-   
-   footer{
-     height:75px;
-     line-height: 75px;
-   }
-   
-   section{
-    overflow: auto;
-    margin: 0;
-   }
-   
-   div{
-     height: 300px;
-     margin: 2em auto;
-     width: 300px;
-   }
-   
+#A{
+  width: 480px;
+  height: 75px;
+}
+
+#B{
+  width: 480px;
+  height: 150px;
+}
+
+#C{
+  width: 480px;
+  height: 125px;
+}
+
+#D{
+  width: 480px;
+  height: 125px;
+}
+
+#E{
+  width: 240px;
+  height: 250px;
+  float: left;
+  flex-wrap: wrap;
+}
+
+#F{
+  width: 240px;
+  height: 250px;
+  float: left;
+  flex-wrap: wrap;
+}
+
+#G{
+  width: 240px;
+  height: 250px;
+  float: left;
+  flex-wrap: wrap;
+}
+
+#H{
+  width: 240px;
+  height: 250px;
+  float: left;
+}
+
+#I{
+  width: 480px;
+  height: 80px;
+  clear:both;
+}
+
+
+
    /* Mobile */
+   /* @media (min-width 480px){
+     background: #eeeeee
+    }
+   
+   */
+
    /* On Desktop, float the divs in the section and center them */
-   @media( min-width: 960px ) {
+   /* @media( min-width: 960px ) {
+     background: turquoise;
+   }
    
      section {
        display:table;
      }
    
-     div {
+     section {
        float:left;
        margin: 2em;
      }
-   }
+   } */
