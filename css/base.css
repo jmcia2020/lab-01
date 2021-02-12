@@ -3,6 +3,20 @@
 }
 
 body, html {
+  margin:0;
+  /* background-color: rgb(187, 156, 212); */
+} 
+
+main{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit minimax(240px, 1fr)); */
+}
+
+
+
+
+
+body, html {
   height: 100%;
   margin:0;
   padding:0;
