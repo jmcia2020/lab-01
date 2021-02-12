@@ -1,39 +1,102 @@
-header {
-    height: 125px;
-    line-height: 125px;
-   }
-   
-   h1{
-     margin: 0;
-   }
-   
-   
-   footer{
-     height:75px;
-     line-height: 75px;
-   }
-   
-   section{
-    overflow: auto;
-    margin: 0;
-   }
-   
-   div{
-     height: 300px;
-     margin: 2em auto;
-     width: 300px;
-   }
-   
-   /* Mobile */
+main{
+  display: grid;
+  grid-template-columns: repeat(auto-fit minimax(240px, 2fr));
+}
+
+#A{
+  width: 480px;
+  height: 75px;
+}
+
+#B{
+  width: 480px;
+  height: 150px;
+}
+
+#C{
+  width: 480px;
+  height: 125px;
+}
+
+#D{
+  width: 480px;
+  height: 125px;
+}
+
+#E{
+  width: 240px;
+  height: 250px;
+  }
+
+#F{
+  width: 240px;
+  height: 250px;
+}
+
+#G{
+  width: 240px;
+  height: 250px;
+}
+
+#H{
+  width: 240px;
+  height: 250px;
+}
+
+#I{
+  width: 480px;
+  height: 80px;
+}
+
+
+
+
+section{
+  justify-content: center;
+  align-items: center;
+  /* width: 100% */
+  border: 1px solid rgb(31, 15, 44);
+}
+
+/* FlexGrid  */
+/* https://www.bing.com/videos/search?view=detail&mid=AB3477E42409C8DEF418AB3477E42409C8DEF418&q=Jan+Tschichold+grid&shtp=GetUrl&shid=66138c1b-a89c-4f8e-a9d8-697df370df5f&shtk=SW5jcmVkaWJseSBFYXN5IExheW91dHMgd2l0aCBDU1MgR3JpZA%3D%3D&shdk=VGhlIGNvbmNlcHRzIG9mICJpbXBsaWNpdCIgYW5kICJleHBsaWNpdCIgZXhwbGFpbmVkIOKAlCBhbmQgd2hhdCB0aGV5IG1lYW4gaW4gQ1NTIEdyaWQuIEplbiBzaG93cyB5b3UgaG93IHRvIGRvIGEgY29tbW9uIHJlc3BvbnNpdmUgaW1hZ2UgZ2FsbGVyeSBpbiBqdXN0IHR3byBsaW5lcyBvZiBjb2RlLCB1c2luZyBgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsIG1pbm1heCgyMDBweCwgMWZyKSlgIGFuZCB6ZXJvIG1lZGlhIHF1ZXJpZXMuIFJhY2hlbCBBbmRyZXcncyB2aWRlbyBleHBsYWluaW5nIGF1dG8tZml0IHZzIGF1dG8tZmlsbDogaHR0cHM6Ly9ncmlkYnlleGFtcGxlLmNvbSAuLi4%3D&shhk=ZqUBbvqNJXl6kNptxUYw%2BsFTbEaoKUrGRAUFdABW4Mc%3D&form=VDSHOT&shth=OSH.ZVPz4EvMvkfUeEhAF7NvBA */
+
+ /* Mobile */ 
+ @media (max-width: 239px){
+  background: #eeeeee
+}
+
+@media (min-width: 239px and max-width 479px){
+ background: #b5ddd1
+}
+
+@media (min-width: 480px and max-width 959px){
+background: #d7e7a9
+}
+
+@media (min-width: 480px and max-width 959px){
+background: #f99a9c
+}
+
+  
+
+
+
+
+
+  
+
    /* On Desktop, float the divs in the section and center them */
-   @media( min-width: 960px ) {
+   /* @media( min-width: 960px ) {
+     background: turquoise;
+   }
    
      section {
        display:table;
      }
    
-     div {
+     section {
        float:left;
        margin: 2em;
      }
-   }
+   } */

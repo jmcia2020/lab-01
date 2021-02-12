@@ -1,13 +1,35 @@
+*{
+  box-sizing: border-box;  
+}
+
 body, html {
-    height: 100%;
-    margin:0;
-    padding:0;
-    width: 100%;
-    /* background-color: aqua; */
-  }
-  
-  
-  /* nav{}
-  html semantic elements  
-  main{}
-  footer{} */
+  margin:0;
+  /* background-color: rgb(187, 156, 212); */
+} 
+
+main{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit minimax(240px, 1fr)); */
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin:0;
+  padding:0;
+  min-width: 480px;
+  width: 100%;
+  background-color: rgb(187, 156, 212);
+} 
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(31, 15, 44);
+}
+
+
